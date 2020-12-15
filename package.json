@@ -1,0 +1,11 @@
+{
+  "name": "coronaupdate",
+  "version": "1.0.0",
+  "description": "Accessing and presenting key information from the UK API for Corona Information",
+  "main": "script.js",
+  "scripts": {
+    "dev": "parcel index.html"
+  },
+  "author": "Joe Lander",
+  "license": "ISC"
+}

@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Corona Information</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="main.css" />
+    <link rel="icon" href="images/Virus.png" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>UK Corona Information</h1>
+        <p>Status: <span id="status">-</span></p>
+      </header>
+      <div class="stats">
+        <h3>Statistics</h3>
+        <div class="card">
+          <h4 class="card__header">Today's Date</h4>
+          <div class="stats__row" id="todaysDate">-</div>
+        </div>
+        <div class="card">
+          <h4 class="card__header">Most Recent Upload</h4>
+          <div class="stats__row" id="uploadDate">-</div>
+        </div>
+        <div class="card">
+          <h4 class="card__header">Rolling 7 Day Average</h4>
+          <div class="stats__row" id="average">-</div>
+        </div>
+        <div class="card">
+          <h4 class="card__header">Most Daily Deaths</h4>
+          <div class="row">
+            <div class="title">Date:</div>
+            <div class="date" id="date__MostDD">-</div>
+          </div>
+          <div class="row">
+            <div class="title">Daily Deaths:</div>
+            <div class="death" id="deaths_MostDD">-</div>
+          </div>
+        </div>
+        <div class="card">
+          <h4 class="card__header">Fewest Daily Deaths (PP)</h4>
+          <div class="row">
+            <div class="title">Date:</div>
+            <div class="date" id="date_FewDD">-</div>
+          </div>
+          <div class="row">
+            <div class="title">Daily Deaths:</div>
+            <div class="death" id="deaths_FewDD">-</div>
+          </div>
+        </div>
+      </div>
+      <div class="data">
+        <h3>Last 7 Days</h3>
+        <div class="data__container">
+          <div class="card">
+            <h4 class="card__header" id="dayHeader_00">-</h4>
+            <div class="row">
+              <div class="title">Date:</div>
+              <div class="date" id="date_00">-</div>
+            </div>
+            <div class="row">
+              <div class="title">Daily Deaths:</div>
+              <div class="death" id="deaths_00">-</div>
+            </div>
+          </div>
+          <div class="card">
+            <h4 class="card__header" id="dayHeader_01">-</h4>
+            <div class="row">
+              <div class="title">Date:</div>
+              <div class="date" id="date_01">-</div>
+            </div>
+            <div class="row">
+              <div class="title">Daily Deaths:</div>
+              <div class="death" id="deaths_01">-</div>
+            </div>
+          </div>
+          <div class="card">
+            <h4 class="card__header" id="dayHeader_02">-</h4>
+            <div class="row">
+              <div class="title">Date:</div>
+              <div class="date" id="date_02">-</div>
+            </div>
+            <div class="row">
+              <div class="title">Daily Deaths:</div>
+              <div class="death" id="deaths_02">-</div>
+            </div>
+          </div>
+          <div class="card">
+            <h4 class="card__header" id="dayHeader_03">-</h4>
+            <div class="row">
+              <div class="title">Date:</div>
+              <div class="date" id="date_03">-</div>
+            </div>
+            <div class="row">
+              <div class="title">Daily Deaths:</div>
+              <div class="death" id="deaths_03">-</div>
+            </div>
+          </div>
+          <div class="card">
+            <h4 class="card__header" id="dayHeader_04">-</h4>
+            <div class="row">
+              <div class="title">Date:</div>
+              <div class="date" id="date_04">-</div>
+            </div>
+            <div class="row">
+              <div class="title">Daily Deaths:</div>
+              <div class="death" id="deaths_04">-</div>
+            </div>
+          </div>
+          <div class="card">
+            <h4 class="card__header" id="dayHeader_05">-</h4>
+            <div class="row">
+              <div class="title">Date:</div>
+              <div class="date" id="date_05">-</div>
+            </div>
+            <div class="row">
+              <div class="title">Daily Deaths:</div>
+              <div class="death" id="deaths_05">-</div>
+            </div>
+          </div>
+          <div class="card">
+            <h4 class="card__header" id="dayHeader_06">-</h4>
+            <div class="row">
+              <div class="title">Date:</div>
+              <div class="date" id="date_06">-</div>
+            </div>
+            <div class="row">
+              <div class="title">Daily Deaths:</div>
+              <div class="death" id="deaths_06">-</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer>
+        <div class="disclaimer">
+          <a href="https://coronavirus.data.gov.uk/">
+            This information has come from the gov stats website
+          </a>
+          <a href="https://www.freepik.com/free-photos-vectors/infographic"
+            >Infographic vector created by pch.vector - www.freepik.com</a
+          >
+        </div>
+        <div class="credits">Compiled by Joseph Lander</div>
+      </footer>
+    </div>
+  </body>
+</html>
